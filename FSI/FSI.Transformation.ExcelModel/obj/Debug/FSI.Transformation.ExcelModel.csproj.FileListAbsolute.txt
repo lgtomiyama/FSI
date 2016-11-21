@@ -1,0 +1,10 @@
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Transformation.ExcelModel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Transformation.ExcelModel.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Model.ServiceIntegration.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Transformation.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Model.ServiceIntegration.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\bin\Debug\FSI.Transformation.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\obj\Debug\FSI.Transformation.ExcelModel.csprojResolveAssemblyReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\obj\Debug\FSI.Transformation.ExcelModel.csproj.ResolveComReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\obj\Debug\FSI.Transformation.ExcelModel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.ExcelModel\obj\Debug\FSI.Transformation.ExcelModel.pdb

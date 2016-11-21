@@ -1,0 +1,13 @@
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\FSI.Setup.Update.exe.config
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\FSI.Setup.Update.exe
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\FSI.Setup.Update.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\SharpSvn.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\SharpSvn.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\SharpSvn.xml
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\bin\Debug\SharpPlink-Win32.svnExe
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.Properties.Resources.resources
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.Updater.resources
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.csproj.GenerateResource.Cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.exe
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Setup.Update\obj\Debug\FSI.Setup.Update.csprojResolveAssemblyReference.cache

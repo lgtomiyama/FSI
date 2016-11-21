@@ -1,0 +1,10 @@
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.DataAccess.Excel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.DataAccess.Excel.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.DataAccess.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.Model.ServiceIntegration.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.DataAccess.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\bin\Release\FSI.Model.ServiceIntegration.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\obj\Release\FSI.DataAccess.Excel.csprojResolveAssemblyReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\obj\Release\FSI.DataAccess.Excel.csproj.ResolveComReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\obj\Release\FSI.DataAccess.Excel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.DataAccess.Excel\obj\Release\FSI.DataAccess.Excel.pdb

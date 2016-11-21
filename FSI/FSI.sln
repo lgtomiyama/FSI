@@ -1,0 +1,177 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Models", "0 - Models", "{3ACFC781-4AE2-4A10-82A8-111F63D9EBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Model.ServiceIntegration", "FSI.Model.ServiceIntegration\FSI.Model.ServiceIntegration.csproj", "{236EBBCD-C893-4794-B7FC-D8D0CF35E449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - DataAccess", "1 - DataAccess", "{3C5F5F4A-C87A-46C3-9D55-9D2F05D868E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.DataAccess.Excel", "FSI.DataAccess.Excel\FSI.DataAccess.Excel.csproj", "{4FA9C5B9-A432-41B0-B49E-8C8F760C417F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.DataAccess.Contract", "FSI.DataAccess.Contract\FSI.DataAccess.Contract.csproj", "{0CA7FD9F-3059-420A-A12E-6C2593C653F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Transformation", "2 - Transformation", "{4F08F2A6-6FB8-4C69-9123-29ABA5B41C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Control", "3 - Control", "{194F8FFC-471F-40B6-9AB0-BA6E57E52E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Control.ServiceIntegration", "FSI.Control.ServiceIntegration\FSI.Control.ServiceIntegration.csproj", "{AB968D9D-F612-4B07-9369-4ACB3966BE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Exposition", "4 - Exposition", "{3EE71EA4-02F4-470A-9EB2-1CE29EF843F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Exposition.Forms", "FSI.Exposition.Forms\FSI.Exposition.Forms.csproj", "{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Exposition.WCF", "FSI.Exposition.WCF\FSI.Exposition.WCF.csproj", "{E0B69566-8E65-4DDA-BFCF-082D14871449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Transformation.ExcelModel", "FSI.Transformation.ExcelModel\FSI.Transformation.ExcelModel.csproj", "{04A8810A-4187-48D4-9FB1-74081535A221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Transformation", "FSI.Transformation\FSI.Transformation.csproj", "{250A5127-62D7-4497-8F47-DEB3F4C9F79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.DataAccess", "FSI.DataAccess\FSI.DataAccess.csproj", "{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Transformation.ContractModel", "FSI.Transformation.ContractModel\FSI.Transformation.ContractModel.csproj", "{3D42AAB4-36EB-47AE-B6AF-743716C77415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Transformation.RequestModel", "FSI.Transformation.RequestModel\FSI.Transformation.RequestModel.csproj", "{00E9653E-8232-4CFC-BD21-946DA4038115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Setup Deployment", "5 - Setup Deployment", "{AD26FDCD-5897-45F1-8161-AC09E4AEBC64}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FSI.Setup.Installer", "FSI.Setup.Installer\FSI.Setup.Installer.vdproj", "{ECE6099D-AB0C-4E66-9F77-012E49B73082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSI.Setup.Update", "FSI.Setup.Update\FSI.Setup.Update.csproj", "{BBAE22F3-A033-40CC-A8CF-356FD93BE165}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236EBBCD-C893-4794-B7FC-D8D0CF35E449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236EBBCD-C893-4794-B7FC-D8D0CF35E449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236EBBCD-C893-4794-B7FC-D8D0CF35E449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236EBBCD-C893-4794-B7FC-D8D0CF35E449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA9C5B9-A432-41B0-B49E-8C8F760C417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA9C5B9-A432-41B0-B49E-8C8F760C417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA9C5B9-A432-41B0-B49E-8C8F760C417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA9C5B9-A432-41B0-B49E-8C8F760C417F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA7FD9F-3059-420A-A12E-6C2593C653F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA7FD9F-3059-420A-A12E-6C2593C653F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA7FD9F-3059-420A-A12E-6C2593C653F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA7FD9F-3059-420A-A12E-6C2593C653F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB968D9D-F612-4B07-9369-4ACB3966BE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB968D9D-F612-4B07-9369-4ACB3966BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB968D9D-F612-4B07-9369-4ACB3966BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB968D9D-F612-4B07-9369-4ACB3966BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B69566-8E65-4DDA-BFCF-082D14871449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B69566-8E65-4DDA-BFCF-082D14871449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B69566-8E65-4DDA-BFCF-082D14871449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B69566-8E65-4DDA-BFCF-082D14871449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A8810A-4187-48D4-9FB1-74081535A221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A8810A-4187-48D4-9FB1-74081535A221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A8810A-4187-48D4-9FB1-74081535A221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A8810A-4187-48D4-9FB1-74081535A221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250A5127-62D7-4497-8F47-DEB3F4C9F79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250A5127-62D7-4497-8F47-DEB3F4C9F79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250A5127-62D7-4497-8F47-DEB3F4C9F79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250A5127-62D7-4497-8F47-DEB3F4C9F79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D42AAB4-36EB-47AE-B6AF-743716C77415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D42AAB4-36EB-47AE-B6AF-743716C77415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D42AAB4-36EB-47AE-B6AF-743716C77415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D42AAB4-36EB-47AE-B6AF-743716C77415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E9653E-8232-4CFC-BD21-946DA4038115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E9653E-8232-4CFC-BD21-946DA4038115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E9653E-8232-4CFC-BD21-946DA4038115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E9653E-8232-4CFC-BD21-946DA4038115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE6099D-AB0C-4E66-9F77-012E49B73082}.Debug|Any CPU.ActiveCfg = Debug
+		{ECE6099D-AB0C-4E66-9F77-012E49B73082}.Release|Any CPU.ActiveCfg = Release
+		{BBAE22F3-A033-40CC-A8CF-356FD93BE165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAE22F3-A033-40CC-A8CF-356FD93BE165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAE22F3-A033-40CC-A8CF-356FD93BE165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAE22F3-A033-40CC-A8CF-356FD93BE165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{236EBBCD-C893-4794-B7FC-D8D0CF35E449} = {3ACFC781-4AE2-4A10-82A8-111F63D9EBC7}
+		{4FA9C5B9-A432-41B0-B49E-8C8F760C417F} = {3C5F5F4A-C87A-46C3-9D55-9D2F05D868E2}
+		{0CA7FD9F-3059-420A-A12E-6C2593C653F7} = {3C5F5F4A-C87A-46C3-9D55-9D2F05D868E2}
+		{AB968D9D-F612-4B07-9369-4ACB3966BE3D} = {194F8FFC-471F-40B6-9AB0-BA6E57E52E63}
+		{C475AC8B-CB52-4C47-9EB6-0E87D2F0C2C0} = {3EE71EA4-02F4-470A-9EB2-1CE29EF843F1}
+		{E0B69566-8E65-4DDA-BFCF-082D14871449} = {3EE71EA4-02F4-470A-9EB2-1CE29EF843F1}
+		{04A8810A-4187-48D4-9FB1-74081535A221} = {4F08F2A6-6FB8-4C69-9123-29ABA5B41C2E}
+		{250A5127-62D7-4497-8F47-DEB3F4C9F79B} = {4F08F2A6-6FB8-4C69-9123-29ABA5B41C2E}
+		{28A0B5DD-8B74-41B8-9697-B934B2EB4DCB} = {3C5F5F4A-C87A-46C3-9D55-9D2F05D868E2}
+		{3D42AAB4-36EB-47AE-B6AF-743716C77415} = {4F08F2A6-6FB8-4C69-9123-29ABA5B41C2E}
+		{00E9653E-8232-4CFC-BD21-946DA4038115} = {4F08F2A6-6FB8-4C69-9123-29ABA5B41C2E}
+		{ECE6099D-AB0C-4E66-9F77-012E49B73082} = {AD26FDCD-5897-45F1-8161-AC09E4AEBC64}
+		{BBAE22F3-A033-40CC-A8CF-356FD93BE165} = {AD26FDCD-5897-45F1-8161-AC09E4AEBC64}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lgtomiyama.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FSI.DataAccess.Contract\\FSI.DataAccess.Contract.csproj
+		SccProjectTopLevelParentUniqueName1 = FSI.sln
+		SccProjectName1 = FSI.DataAccess.Contract
+		SccLocalPath1 = FSI.DataAccess.Contract
+		SccProjectUniqueName2 = FSI.DataAccess.Excel\\FSI.DataAccess.Excel.csproj
+		SccProjectTopLevelParentUniqueName2 = FSI.sln
+		SccProjectName2 = FSI.DataAccess.Excel
+		SccLocalPath2 = FSI.DataAccess.Excel
+		SccProjectUniqueName3 = FSI.Model.ServiceIntegration\\FSI.Model.ServiceIntegration.csproj
+		SccProjectTopLevelParentUniqueName3 = FSI.sln
+		SccProjectName3 = FSI.Model.ServiceIntegration
+		SccLocalPath3 = FSI.Model.ServiceIntegration
+		SccProjectUniqueName4 = FSI.Control.ServiceIntegration\\FSI.Control.ServiceIntegration.csproj
+		SccProjectTopLevelParentUniqueName4 = FSI.sln
+		SccProjectName4 = FSI.Control.ServiceIntegration
+		SccLocalPath4 = FSI.Control.ServiceIntegration
+		SccProjectUniqueName5 = FSI.Exposition.Forms\\FSI.Exposition.Forms.csproj
+		SccProjectTopLevelParentUniqueName5 = FSI.sln
+		SccProjectName5 = FSI.Exposition.Forms
+		SccLocalPath5 = FSI.Exposition.Forms
+		SccProjectUniqueName6 = FSI.Exposition.WCF\\FSI.Exposition.WCF.csproj
+		SccProjectTopLevelParentUniqueName6 = FSI.sln
+		SccProjectName6 = FSI.Exposition.WCF
+		SccLocalPath6 = FSI.Exposition.WCF
+		SccProjectUniqueName7 = FSI.Transformation.ExcelModel\\FSI.Transformation.ExcelModel.csproj
+		SccProjectTopLevelParentUniqueName7 = FSI.sln
+		SccProjectName7 = FSI.Transformation.ExcelModel
+		SccLocalPath7 = FSI.Transformation.ExcelModel
+		SccProjectUniqueName8 = FSI.Transformation\\FSI.Transformation.csproj
+		SccProjectTopLevelParentUniqueName8 = FSI.sln
+		SccProjectName8 = FSI.Transformation
+		SccLocalPath8 = FSI.Transformation
+		SccProjectUniqueName9 = FSI.DataAccess\\FSI.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName9 = FSI.sln
+		SccProjectName9 = FSI.DataAccess
+		SccLocalPath9 = FSI.DataAccess
+		SccProjectUniqueName10 = FSI.Transformation.ContractModel\\FSI.Transformation.ContractModel.csproj
+		SccProjectTopLevelParentUniqueName10 = FSI.sln
+		SccProjectName10 = FSI.Transformation.ContractModel
+		SccLocalPath10 = FSI.Transformation.ContractModel
+		SccProjectUniqueName11 = FSI.Transformation.RequestModel\\FSI.Transformation.RequestModel.csproj
+		SccProjectTopLevelParentUniqueName11 = FSI.sln
+		SccProjectName11 = FSI.Transformation.RequestModel
+		SccLocalPath11 = FSI.Transformation.RequestModel
+		SccProjectUniqueName12 = FSI.Setup.Installer\\FSI.Setup.Installer.vdproj
+		SccProjectTopLevelParentUniqueName12 = FSI.sln
+		SccProjectName12 = FSI.Setup.Installer
+		SccLocalPath12 = FSI.Setup.Installer
+		SccProjectUniqueName13 = FSI.Setup.Update\\FSI.Setup.Update.csproj
+		SccProjectTopLevelParentUniqueName13 = FSI.sln
+		SccProjectName13 = FSI.Setup.Update
+		SccLocalPath13 = FSI.Setup.Update
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\SVN\Vivo\tools\1. contract generator\FSI.Model.ServiceIntegration\bin\Debug\FSI.Model.ServiceIntegration.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Model.ServiceIntegration\bin\Debug\FSI.Model.ServiceIntegration.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Model.ServiceIntegration\obj\Debug\FSI.Model.ServiceIntegration.csproj.ResolveComReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.Model.ServiceIntegration\obj\Debug\FSI.Model.ServiceIntegration.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Model.ServiceIntegration\obj\Debug\FSI.Model.ServiceIntegration.pdb

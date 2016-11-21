@@ -1,0 +1,9 @@
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Transformation.RequestModel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Transformation.RequestModel.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Model.ServiceIntegration.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Transformation.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Model.ServiceIntegration.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\bin\Debug\FSI.Transformation.pdb
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\obj\Debug\FSI.Transformation.RequestModel.csprojResolveAssemblyReference.cache
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\obj\Debug\FSI.Transformation.RequestModel.dll
+C:\SVN\Vivo\tools\1. contract generator\FSI.Transformation.RequestModel\obj\Debug\FSI.Transformation.RequestModel.pdb

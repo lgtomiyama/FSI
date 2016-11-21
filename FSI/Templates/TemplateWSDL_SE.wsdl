@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+ <wsdl:definitions name="@@infoNome@@"
+     xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+     xmlns:etrace="http://telefonica.br/Common/ErrorTrace/v1"
+     targetNamespace="http://telefonica.br/@@infoTAM@@@@infoNome@@/v1"
+     xmlns:tns="http://telefonica.br/@@infoTAM@@@@infoNome@@/v1"
+     xmlns:types="http://telefonica.br/@@infoTAM@@@@infoNome@@/v1/types"
+	 xmlns:tefh="http://telefonica.br/Common/TEFHeader/v1">
+<wsdl:documentation >
+     -WS - I Basic Profile 1.2 - Compliance
+     - Namespace definido com base no TAM Framework 14.5
+     - Níveis TAM: @@infoTAM@@
+</wsdl:documentation >
+	<wsdl:types>
+		<xsd:schema>
+@@Imports@@
+			<xsd:import
+					namespace="http://telefonica.br/Common/ErrorTrace/v1" 
+					schemaLocation="@@LevelFromRoot@@common/types/ErrorTrace.xsd"/>
+			      <xsd:import namespace="http://telefonica.br/Common/TEFHeader/v1"
+                  schemaLocation="@@LevelFromRoot@@common/types/TEFHeader.xsd"/>		
+		</xsd:schema>
+	</wsdl:types>
+	
+			<wsdl:message name="CustomFaultMessage">
+				<wsdl:documentation>
+					Fault lançada quando o erro nao puder se mapeado para nenhuma outra falha especializada.
+				</wsdl:documentation>
+				<wsdl:part name="error" element="etrace:errorTrace"/>
+			</wsdl:message>
+@@Messages@@
+ 	<wsdl:portType name="@@infoNome@@PortType" >
+@@Operations@@
+ 	</wsdl:portType>
+	<wsdl:binding name="@@infoNome@@SOAP" type="tns:@@infoNome@@PortType">  
+		<soap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+@@BindingOperations@@
+	</wsdl:binding>
+	<wsdl:service name="@@infoNome@@">
+		<wsdl:port binding="tns:@@infoNome@@SOAP" name="@@infoNome@@PORT">
+			<soap11:address location="http://host:port/@@infoTAM@@@@infoNome@@"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

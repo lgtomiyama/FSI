@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB968D9D-F612-4B07-9369-4ACB3966BE3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FSI.Control.ServiceIntegration</RootNamespace>
+    <AssemblyName>FSI.Control.ServiceIntegration</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IntegrationControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSI.DataAccess.Contract\FSI.DataAccess.Contract.csproj">
+      <Project>{0ca7fd9f-3059-420a-a12e-6c2593c653f7}</Project>
+      <Name>FSI.DataAccess.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSI.DataAccess.Excel\FSI.DataAccess.Excel.csproj">
+      <Project>{4fa9c5b9-a432-41b0-b49e-8c8f760c417f}</Project>
+      <Name>FSI.DataAccess.Excel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSI.Model.ServiceIntegration\FSI.Model.ServiceIntegration.csproj">
+      <Project>{236ebbcd-c893-4794-b7fc-d8d0cf35e449}</Project>
+      <Name>FSI.Model.ServiceIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSI.Transformation.ContractModel\FSI.Transformation.ContractModel.csproj">
+      <Project>{3d42aab4-36eb-47ae-b6af-743716c77415}</Project>
+      <Name>FSI.Transformation.ContractModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSI.Transformation.ExcelModel\FSI.Transformation.ExcelModel.csproj">
+      <Project>{04a8810a-4187-48d4-9fb1-74081535a221}</Project>
+      <Name>FSI.Transformation.ExcelModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FSI.Transformation.RequestModel\FSI.Transformation.RequestModel.csproj">
+      <Project>{00e9653e-8232-4cfc-bd21-946da4038115}</Project>
+      <Name>FSI.Transformation.RequestModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

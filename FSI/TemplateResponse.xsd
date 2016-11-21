@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema	elementFormDefault="qualified"
+	    xmlns="http://www.w3.org/2001/XMLSchema"
+@@NameSpaces@@
+		targetNamespace="http://telefonica.br/@@infoTAM@@/@@infoNome@@/v1"
+		xmlns:tns="http://telefonica.br/@@infoTAM@@/@@infoNome@@/v1"
+		xmlns:types="http://telefonica.br/@@infoTAM@@/@@infoNome@@/v1/types">
+@@Imports@@
+	<complexType name="@@MethodName@@ResponseType">
+	    <sequence>
+@@MethodProperties@@
+	    </sequence>
+	</complexType>
+@@Entities@@	
+	<element name="@@MethodName@@Response" type="tns:@@MethodName@@ResponseType" />
+</schema>
