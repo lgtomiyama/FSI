@@ -23,9 +23,9 @@ namespace FSI.Exposition.Forms
 
         private void frmUpdateUpdater_Load(object sender, EventArgs e)
         {
-            _svnUser = "lgarciat";
-            _svnPassword = "everis@2016";
-            _appUrl = "https://quark.everis.com/svn/BEATRIX/trunk/tools/1. contract generator/FSI.Setup.Update/bin/Release";
+            _svnUser = "";//usuario
+            _svnPassword = "";//senha
+            _appUrl = "";//repo
 
 
             try
